@@ -1,7 +1,6 @@
 {
     "name": "php-concept/extension-event",
     "description": "Concept Event extension — League Event dispatcher wiring",
-    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "autoload": {
