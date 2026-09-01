@@ -1,6 +1,6 @@
 {
     "name": "php-concept/extension-event",
-    "description": "Concept Event extension — League Event dispatcher wiring",
+    "description": "Concept Event extension \u2014 League Event dispatcher wiring",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -14,5 +14,16 @@
         "league/container": "^5.1",
         "league/event": "^3.0",
         "psr/event-dispatcher": "^1.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
     }
 }
